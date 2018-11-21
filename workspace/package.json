@@ -1,0 +1,19 @@
+{
+  "name": "openbanking",
+  "version": "1.0.0",
+  "description": "cucumber-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions -x 50000"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "divya",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "macha": "0.0.0",
+    "selenium-cucumber-js": "^1.6.2"
+  }
+}

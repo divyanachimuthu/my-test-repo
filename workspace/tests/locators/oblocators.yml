@@ -1,0 +1,9 @@
+loginlink: '//*[@id="navbar-collapse-header"]/div/a[1]'
+
+userID field: '//*[@id="input-email"]'
+
+password field: '//*[@id="input-password"]'
+
+error popup: '//*[@id="account-login"]/div[2]/div[1]'
+
+loginbutton: '//button[@type="submit"][1]'
